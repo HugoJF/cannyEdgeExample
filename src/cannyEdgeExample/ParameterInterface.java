@@ -40,7 +40,8 @@ public class ParameterInterface extends JFrame {
 	}
 	
 	public float getLowThresValue() {
-		
+		// TODO
+		return 0f;
 	}
 
 	/**
