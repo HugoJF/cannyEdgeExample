@@ -19,7 +19,7 @@ import boofcv.struct.image.ImageUInt8;
 public class Main {
 
 	public static void main(String args[]) {
-		BufferedImage image = UtilImageIO.loadImage("C:\\Users\\Hugo\\Dropbox\\surfExtractor\\diversosGraosJuntos\\5A\\Img00133.jpg");
+		BufferedImage image = UtilImageIO.loadImage("C:\\Users\\Public\\Pictures\\Sample Pictures\\Penguins.jpg");
 
 		ImageUInt8 gray = ConvertBufferedImage.convertFrom(image, (ImageUInt8) null);
 		ImageUInt8 edgeImage = new ImageUInt8(gray.width, gray.height);
